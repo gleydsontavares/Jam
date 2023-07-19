@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 73e66acd60433f448970106c6c8f3814
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 8819865844322498414
+    second: run_anim
+  - first:
+      74: 3086308268491700514
+    second: walk_anim
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk_anim
+      takeName: walk_anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run_anim
+      takeName: run_anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Personagem_walk_and_run_anim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Roundcube.003
+      parentName: Personagem_walk_and_run_anim(Clone)
+      position: {x: -0.49530607, y: 1.9170796, z: 1.5342512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.035
+      parentName: Personagem_walk_and_run_anim(Clone)
+      position: {x: -0.23345573, y: 1.9742007, z: 1.0119808}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.003
+      parentName: Personagem_walk_and_run_anim(Clone)
+      position: {x: -0.23345573, y: 0.3492732, z: 1.0119808}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Coluna.001
+      parentName: Armature.003
+      position: {x: 0.0023345572, y: 0.012336371, z: -0.005522085}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coluna.002
+      parentName: Coluna.001
+      position: {x: -0, y: 0.005008227, z: 0}
+      rotation: {x: -0, y: 2.2156701e-10, z: 3.6819026e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Pescoco.001
+      parentName: Coluna.002
+      position: {x: 4.814675e-12, y: 0.0053433054, z: 8.361666e-12}
+      rotation: {x: 1.1265083e-19, y: -8.775376e-11, z: -6.5425315e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Cabeca.001
+      parentName: Pescoco.001
+      position: {x: 1.4207764e-11, y: 0.0026997738, z: -7.953531e-12}
+      rotation: {x: 3.405531e-17, y: -0.00000011930919, z: 5.576039e-10, w: 1}
+      scale: {x: 1, y: 0.99999964, z: 0.99999994}
+    - name: Cabeca.002
+      parentName: Cabeca.001
+      position: {x: 2.4670257e-11, y: 0.004598054, z: 4.8930816e-12}
+      rotation: {x: -4.7728305e-10, y: -0.00000005125762, z: -0.0040048794, w: 0.999992}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: Cabeca.002_end
+      parentName: Cabeca.002
+      position: {x: -0, y: 0.0025398436, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pincel.001
+      parentName: Cabeca.001
+      position: {x: 0.00026798405, y: 0.007885587, z: 0.0020093287}
+      rotation: {x: -6.1226696e-10, y: 0.000000014167185, z: -0.0051375288, w: 0.9999868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pincel.002
+      parentName: Pincel.001
+      position: {x: -0, y: 0.0012947284, z: 6.565824e-10}
+      rotation: {x: 6.074329e-10, y: -0.000000013226133, z: 0.0051375353, w: 0.9999868}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: Pincel.003
+      parentName: Pincel.002
+      position: {x: -1.4901161e-10, y: 0.00103751, z: 8.754432e-10}
+      rotation: {x: -2.220446e-16, y: -0.000000027284836, z: -9.313226e-10, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Pincel.004
+      parentName: Pincel.003
+      position: {x: 2.9802322e-10, y: 0.0010375113, z: 7.4505804e-11}
+      rotation: {x: -0.00000014768649, y: 0.0000000264266, z: -0.60529375, w: 0.79600227}
+      scale: {x: 0.9999997, y: 0.9999996, z: 1}
+    - name: Pincel.005
+      parentName: Pincel.004
+      position: {x: 5.2154064e-10, y: 0.0010375114, z: -4.2840836e-10}
+      rotation: {x: -0.000000010506887, y: -0.0000000011747562, z: -0.09827076, w: 0.99515975}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Pincel.006
+      parentName: Pincel.005
+      position: {x: 0.000000003762543, y: 0.0010375119, z: 4.842877e-10}
+      rotation: {x: -1.5919753e-15, y: 0.000000013642431, z: -0.000000013504177, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: Pincel.007
+      parentName: Pincel.006
+      position: {x: -8.300412e-10, y: 0.0010375106, z: 4.5401974e-10}
+      rotation: {x: 3.7110783e-15, y: -0.000000031832307, z: 0.000000031664968, w: 1}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000001}
+    - name: Pincel.008
+      parentName: Pincel.007
+      position: {x: 0.0000000010617077, y: 0.0010375127, z: -1.8626451e-11}
+      rotation: {x: -3.469521e-15, y: 1.4210855e-14, z: -0.000000027474016, w: 1}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999994}
+    - name: Pincel.009
+      parentName: Pincel.008
+      position: {x: 1.11758706e-10, y: 0.0010375134, z: -2.2351741e-10}
+      rotation: {x: -0.00000005960464, y: 0.000000040927226, z: 0.000000013969839, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: Pincel.010
+      parentName: Pincel.009
+      position: {x: 3.7252902e-11, y: 0.0010375133, z: 8.9406965e-10}
+      rotation: {x: 0.00000011920928, y: -0.0000000682121, z: 0.000000027008353, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Pincel.011
+      parentName: Pincel.010
+      position: {x: 5.9604643e-10, y: 0.0010375119, z: -0.0000000010430813}
+      rotation: {x: -0.000000119209275, y: 0.00000005002221, z: 0.000000040978197, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Pincel.011_end
+      parentName: Pincel.011
+      position: {x: -0, y: 0.0010375119, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pescoco.002.L
+      parentName: Coluna.002
+      position: {x: -0.0011164666, y: 0.006105945, z: 0.0022165638}
+      rotation: {x: -0.34562236, y: 0.01077798, z: 0.91953874, w: 0.18675542}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999998}
+    - name: Braco.001.L
+      parentName: Pescoco.002.L
+      position: {x: -0.00051908486, y: 0.0041538463, z: -0.0003754653}
+      rotation: {x: -0.0053885994, y: -0.25554913, z: 0.2559542, w: 0.9322838}
+      scale: {x: 1.0000006, y: 1.0000001, z: 0.99999994}
+    - name: Braco.002.L
+      parentName: Braco.001.L
+      position: {x: 8.1563484e-10, y: 0.00399206, z: 1.9208527e-11}
+      rotation: {x: 0.043311033, y: -0.6523523, z: -0.15530266, w: 0.74056864}
+      scale: {x: 1.000001, y: 1.000001, z: 0.9999998}
+    - name: Braco.002.L_end
+      parentName: Braco.002.L
+      position: {x: -0, y: 0.0033738245, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pescoco.002.R
+      parentName: Coluna.002
+      position: {x: 0.0011164666, y: 0.0061059454, z: 0.0022165638}
+      rotation: {x: -0.34562233, y: -0.010777772, z: -0.91953874, w: 0.1867555}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999964}
+    - name: Braco.001.R
+      parentName: Pescoco.002.R
+      position: {x: 0.00051908643, y: 0.004153846, z: -0.00037546514}
+      rotation: {x: 0.005388294, y: -0.2555491, z: 0.2559542, w: -0.9322838}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999964}
+    - name: Braco.002.R
+      parentName: Braco.001.R
+      position: {x: 3.004243e-10, y: 0.003992062, z: -1.5716067e-11}
+      rotation: {x: 0.043311194, y: 0.65235186, z: 0.1553027, w: 0.7405689}
+      scale: {x: 1.0000013, y: 1.0000018, z: 1}
+    - name: Braco.002.R_end
+      parentName: Braco.002.R
+      position: {x: -0, y: 0.0033738245, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Perna.001.L
+      parentName: Coluna.001
+      position: {x: -0.0033325357, y: 0.00065747206, z: -0.0019419262}
+      rotation: {x: 0.000003163703, y: -0.000000089406974, z: 0.99955994, w: -0.029663665}
+      scale: {x: 1.0000033, y: 1.0000004, z: 0.99999994}
+    - name: Perna.001.L_end
+      parentName: Perna.001.L
+      position: {x: -0, y: 0.0028453954, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Perna.001.R
+      parentName: Coluna.001
+      position: {x: 0.0033325357, y: 0.0010540627, z: 0.0023757722}
+      rotation: {x: -0.000003163703, y: -0.000000089406974, z: 0.99955994, w: 0.029663673}
+      scale: {x: 1.0000032, y: 1.0000002, z: 1}
+    - name: Perna.001.R_end
+      parentName: Perna.001.R
+      position: {x: -0, y: 0.0028453954, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

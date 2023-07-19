@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 04ecb2176201f3f47a16ca9a2175c195
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 4874126678125670354, guid: 04ecb2176201f3f47a16ca9a2175c195, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: -6922793697723135513, guid: 04ecb2176201f3f47a16ca9a2175c195, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Personagem_textura_desenho(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Roundcube.003
+      parentName: Personagem_textura_desenho(Clone)
+      position: {x: -0.26185024, y: 1.9170796, z: 0.82700944}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.035
+      parentName: Personagem_textura_desenho(Clone)
+      position: {x: 0.00000010058284, y: 1.9742007, z: 0.304739}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.003
+      parentName: Personagem_textura_desenho(Clone)
+      position: {x: 0.00000010058284, y: 0.3492732, z: 0.304739}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Coluna.001
+      parentName: Armature.003
+      position: {x: 0, y: 0.005263953, z: -0.0055220816}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coluna.002
+      parentName: Coluna.001
+      position: {x: -0, y: 0.005008227, z: 0}
+      rotation: {x: -0, y: -7.670866e-12, z: 2.473834e-11, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Pescoco.001
+      parentName: Coluna.002
+      position: {x: 9.574936e-12, y: 0.005343306, z: 1.4870238e-12}
+      rotation: {x: -3.6189374e-22, y: -1.4553657e-11, z: -2.4253342e-13, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Cabeca.001
+      parentName: Pescoco.001
+      position: {x: -1.823251e-11, y: 0.0026997756, z: 4.4383342e-12}
+      rotation: {x: -2.8883224e-18, y: -0.00000011920375, z: 0.0000000014249901, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: Cabeca.002
+      parentName: Cabeca.001
+      position: {x: 1.5599175e-11, y: 0.004598053, z: 2.5102054e-12}
+      rotation: {x: -4.774855e-10, y: -0.00000005120702, z: -0.004004878, w: 0.999992}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Cabeca.002_end
+      parentName: Cabeca.002
+      position: {x: -0, y: 0.0025398436, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pincel.001
+      parentName: Cabeca.001
+      position: {x: 0.00026798408, y: 0.0078855865, z: 0.002009329}
+      rotation: {x: -6.125277e-10, y: 0.000000028187621, z: -0.005137536, w: 0.9999868}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: Pincel.002
+      parentName: Pincel.001
+      position: {x: 1.6763806e-10, y: 0.0012947249, z: -5.867332e-10}
+      rotation: {x: 6.0743277e-10, y: -0.000000027195957, z: 0.005137535, w: 0.9999868}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: Pincel.003
+      parentName: Pincel.002
+      position: {x: 9.313225e-11, y: 0.0010375105, z: 8.5681673e-10}
+      rotation: {x: 1.0547119e-15, y: -0.00000003637981, z: 0.0000000088475645, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Pincel.004
+      parentName: Pincel.003
+      position: {x: -0.0000000013131648, y: 0.0010375133, z: 2.7939676e-10}
+      rotation: {x: 3.2187273e-16, y: 0.00000003637981, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Pincel.005
+      parentName: Pincel.004
+      position: {x: -8.1956386e-10, y: 0.0010375135, z: 5.2154064e-10}
+      rotation: {x: 0.00000016097347, y: 0.0000000047077653, z: 0.6052938, w: 0.7960022}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: Pincel.006
+      parentName: Pincel.005
+      position: {x: -4.377216e-10, y: 0.0010375124, z: 0.0000000010430813}
+      rotation: {x: -0.000000011328424, y: 0.000000019108338, z: 0.09826943, w: 0.9951599}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: Pincel.007
+      parentName: Pincel.006
+      position: {x: -5.9604643e-10, y: 0.0010375119, z: 0.0000000019371509}
+      rotation: {x: 5.1174618e-15, y: -0.000000036379802, z: 0.000000040978193, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Pincel.008
+      parentName: Pincel.007
+      position: {x: -0.0000000014156103, y: 0.0010375112, z: -0.0000000016391277}
+      rotation: {x: 1.4440421e-15, y: 0.000000036379795, z: 0.0000000041909516, w: 1}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999998}
+    - name: Pincel.009
+      parentName: Pincel.008
+      position: {x: 0.0000000015646219, y: 0.0010375131, z: 0.0000000011920929}
+      rotation: {x: -6.9735337e-15, y: -7.1054274e-15, z: -0.000000063329935, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: Pincel.010
+      parentName: Pincel.009
+      position: {x: -4.842877e-10, y: 0.0010375127, z: -7.45058e-10}
+      rotation: {x: 6.6977796e-15, y: -0.000000072759555, z: 0.00000003632158, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+    - name: Pincel.011
+      parentName: Pincel.010
+      position: {x: -0.0000000010989606, y: 0.0010375156, z: -1.6763806e-10}
+      rotation: {x: -6.642269e-15, y: 0.000000045474714, z: -0.00000003632158, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Pincel.011_end
+      parentName: Pincel.011
+      position: {x: -0, y: 0.0010375119, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pescoco.002.L
+      parentName: Coluna.002
+      position: {x: -0.0011164666, y: 0.006105945, z: 0.002216564}
+      rotation: {x: -0.34562233, y: 0.010777772, z: 0.91953874, w: 0.1867555}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
+    - name: Braco.001.L
+      parentName: Pescoco.002.L
+      position: {x: -0.000519086, y: 0.0041538454, z: -0.00037546543}
+      rotation: {x: -0.0053885398, y: -0.2555491, z: 0.25595415, w: 0.9322838}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.9999999}
+    - name: Braco.002.L
+      parentName: Braco.001.L
+      position: {x: 2.568413e-11, y: 0.0039920625, z: 1.6880221e-11}
+      rotation: {x: 0.043311357, y: -0.6523522, z: -0.15530263, w: 0.7405686}
+      scale: {x: 1.0000014, y: 1.0000018, z: 1.0000002}
+    - name: Braco.002.L_end
+      parentName: Braco.002.L
+      position: {x: -0, y: 0.0033738245, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pescoco.002.R
+      parentName: Coluna.002
+      position: {x: 0.0011164666, y: 0.0061059454, z: 0.002216564}
+      rotation: {x: -0.34562233, y: -0.010777892, z: -0.91953874, w: 0.1867555}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999997}
+    - name: Braco.001.R
+      parentName: Pescoco.002.R
+      position: {x: 0.0005190866, y: 0.004153846, z: -0.00037546514}
+      rotation: {x: 0.0053885784, y: -0.2555492, z: 0.25595394, w: -0.9322839}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Braco.002.R
+      parentName: Braco.001.R
+      position: {x: 4.024332e-10, y: 0.0039920616, z: -8.1490726e-12}
+      rotation: {x: 0.043311473, y: 0.65235174, z: 0.15530269, w: 0.740569}
+      scale: {x: 1.0000019, y: 1.0000019, z: 1}
+    - name: Braco.002.R_end
+      parentName: Braco.002.R
+      position: {x: -0, y: 0.0033738245, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Perna.001.L
+      parentName: Coluna.001
+      position: {x: -0.0033325357, y: 0.0009466685, z: -0.0010993918}
+      rotation: {x: 0.000003163703, y: -0.000000089406974, z: 0.99955994, w: -0.029663673}
+      scale: {x: 1.0000031, y: 1, z: 0.9999999}
+    - name: Perna.001.L_end
+      parentName: Perna.001.L
+      position: {x: -0, y: 0.0028453954, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Perna.001.R
+      parentName: Coluna.001
+      position: {x: 0.0033325357, y: 0.0011617716, z: 0.0008244164}
+      rotation: {x: -0.0000031655657, y: -0.000000089406974, z: 0.99955994, w: 0.029663665}
+      scale: {x: 1.000003, y: 1.0000002, z: 1}
+    - name: Perna.001.R_end
+      parentName: Perna.001.R
+      position: {x: -0, y: 0.0028453954, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
